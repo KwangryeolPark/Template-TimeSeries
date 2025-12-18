@@ -7,3 +7,6 @@ ipykernel
 tqdm
 scipy
 scikit-learn
+streamlit
+streamlit-echarts
+plotly
