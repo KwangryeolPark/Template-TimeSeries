@@ -1,0 +1,69 @@
+\documentclass{article}
+
+% if you need to pass options to natbib, use, e.g.:
+%     \PassOptionsToPackage{numbers, compress}{natbib}
+% before loading neurips_2024
+
+
+% ready for submission
+% \usepackage{main}
+
+
+% to compile a preprint version, e.g., for submission to arXiv, add add the
+% [preprint] option:
+% \usepackage[preprint]{main}
+
+
+% to compile a camera-ready version, add the [final] option, e.g.:
+\usepackage[final]{main}
+
+
+% to avoid loading the natbib package, add option nonatbib:
+%    \usepackage[nonatbib]{main}
+
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{xcolor}         % colors
+
+
+\title{Shift Aware Self-Supervised Learning: OilO}
+
+\author{%
+  Kwangryeol Park\thanks{First Author} \\
+  Artificial Intelligence Graduate School\\
+  Ulsan National Institute of Science \& Technology (UNIST), South Korea\\
+  \texttt{pkr7098@unist.ac.kr} \\
+}
+
+
+\begin{document}
+
+
+\maketitle
+
+
+\begin{abstract}
+\input{sections/0_abstract.tex}    
+\end{abstract}
+
+
+\input{sections/1_introduction.tex}
+\input{sections/2_related_work.tex}
+\input{sections/3_method.tex}
+\input{sections/4_experiments.tex}
+\input{sections/5_conclusion.tex}
+
+
+\bibliographystyle{plainnat}
+\bibliography{references} 
+
+\appendix
+
+\end{document}
