@@ -1,6 +1,21 @@
 # Byte-compiled / optimized / DLL files
 dataset
 test_results
+wandb
+
+*.pth
+*.npz
+*.npy
+
+
+# LaTex
+paper/*.aux
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.out
+paper/*.synctex.gz
+paper/*.blg
+paper/*.bbl
 
 __pycache__/
 *.py[codz]
